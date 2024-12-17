@@ -22,11 +22,13 @@ To run this project, you need to install the following Python libraries:
 
 ```bash
 pip install gdown pandas matplotlib textblob sklearn gensim talib
+```
+## Produres:
 
-Data Loading
+### Data Loading
 Load the financial news data from a CSV file.
 
-Data Cleaning
+### Data Cleaning
 Get the number of rows.
 
 Rename the unnamed column to "SNo".
@@ -37,7 +39,7 @@ Check for duplicate rows.
 
 Convert date column to datetime with ISO8601 format.
 
-Exploratory Data Analysis
+### Exploratory Data Analysis
 Calculate basic statistics for headline lengths.
 
 Count the number of articles per publisher.
@@ -52,7 +54,7 @@ Analyze publication trends by month.
 
 Analyze publication trends by year.
 
-Sentiment Analysis
+### Sentiment Analysis
 Normalize text data by converting to lowercase.
 
 Perform sentiment analysis using TextBlob.
@@ -61,31 +63,31 @@ Classify sentiment as positive, negative, or neutral.
 
 Display and plot sentiment distribution.
 
-Keyword Extraction
+## Keyword Extraction
 Extract common keywords or phrases using CountVectorizer.
 
 Extract common phrases (bigrams).
 
 Extract common phrases (trigrams).
 
-Publication Trends
+### Publication Trends
 Analyze publication dates.
 
 Plot publication trends over time.
 
-Market Events
+### Market Events
 List significant market events.
 
 Plot publication trends over time with market events.
 
-Publication Time Analysis
+### Publication Time Analysis
 Extract hour from date.
 
 Convert hour to AM/PM format.
 
 Analyze and plot publication trends by hour in AM/PM format.
 
-Publisher Analysis
+### Publisher Analysis
 Count the number of articles per publisher.
 
 Plot the top publishers.
@@ -98,7 +100,7 @@ Count the number of articles per domain.
 
 Plot the top domains.
 
-Stock Analysis
+### Stock Analysis
 Combine stock price data from multiple CSV files.
 
 Normalize dates in stock data.
@@ -111,7 +113,7 @@ Plot combined indicators for all stocks.
 
 Calculate and plot daily returns for all stocks.
 
-Correlation Analysis
+### Correlation Analysis
 Perform sentiment analysis on news headlines.
 
 Aggregate daily sentiment scores.
