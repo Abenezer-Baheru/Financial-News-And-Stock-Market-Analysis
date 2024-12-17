@@ -1,4 +1,4 @@
-# Financial News Analysis
+# Financial News And Stock Market Analysis
 
 This project performs various analyses on financial news headlines, including data cleaning, sentiment analysis, and trend analysis. The goal is to extract insights from the headlines and understand their impact on the stock market.
 
